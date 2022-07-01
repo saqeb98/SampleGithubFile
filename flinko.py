@@ -23,7 +23,7 @@ def login(mail, password):
     token = tk['responseObject']['access_token']
     head["Authorization"] = "Bearer " + token
 
-    suiteid = 'SUITE1019'
+    suiteid = 'SUITE1020'
     pes = s.post('https://app.flinko.com:8109/optimize/v1/dashboard/execution/suite/' + suiteid, headers=head)
     out = json.loads(pes.content)
     exid = out['responseObject']['id']
