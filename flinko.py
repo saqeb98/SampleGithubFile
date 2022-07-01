@@ -47,4 +47,4 @@ def login(mail, password):
                  sc = 1
         time.sleep(10)
 
-login('mohammed.saqeb@testyantra.com', 'Password@123*')
+login('mohammed.saqeb@testyantra.com', 'Password@123')
